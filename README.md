@@ -15,19 +15,18 @@ Aplicação construída com foco em performance, usabilidade e identidade visual
 
 ## Como rodar localmente
 
-#### bash
-## Clone o repositório
+### Clone o repositório
 `git clone https://github.com/TalitaMoul/portfolio-talita-react.git`
 
-## Acesse a pasta
+### Acesse a pasta
 `cd portfolio-talita-react`
 
-## Instale as dependências
+### Instale as dependências
 `npm install`
 
-## Inicie o servidor de desenvolvimento
+### Inicie o servidor de desenvolvimento
 `npm run dev` 
-## Acesse *http://localhost:5173* no navegador.
+#### Acesse *http://localhost:5173* no navegador.
 
 ## Autor
 **Desenvolvido por Talita Moulin**
