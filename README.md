@@ -1,73 +1,36 @@
-# React + TypeScript + Vite
+#Portfólio Pessoal — Talita Moulin
+Portfólio profissional desenvolvido com React.js e TypeScript, criado para centralizar minha identidade como Desenvolvedora Front-End e apresentar meus projetos.
+🔗 [Acesse o projeto ao vivo](https://portifolio-talita-react.vercel.app/)
+## Sobre o projeto
+Aplicação construída com foco em performance, usabilidade e identidade visual própria. O portfólio reúne projetos, habilidades técnicas e informações de contato em uma interface responsiva e moderna.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias
 
-Currently, two official plugins are available:
+- **React** — biblioteca para construção de interfaces componentizadas
+- **TypeScript** — tipagem estática para maior confiabilidade do código
+- **Vite** — bundler moderno com hot module replacement (HMR)
+- **Tailwind CSS** — estilização utilitária com design responsivo
+- **React Router DOM v7** — roteamento client-side
+- **Lucide React** — biblioteca de ícones
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Como rodar localmente
 
-## React Compiler
+#### bash
+## Clone o repositório
+`git clone https://github.com/TalitaMoul/portfolio-talita-react.git`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Acesse a pasta
+`cd portfolio-talita-react`
 
-## Expanding the ESLint configuration
+## Instale as dependências
+`npm install`
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Inicie o servidor de desenvolvimento
+`npm run dev` 
+## Acesse *http://localhost:5173* no navegador.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Autor
+**Desenvolvido por Talita Moulin**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
