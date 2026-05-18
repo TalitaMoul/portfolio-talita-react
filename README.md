@@ -1,6 +1,6 @@
-#Portfólio Pessoal — Talita Moulin
-Portfólio profissional desenvolvido com React.js e TypeScript, criado para centralizar minha identidade como Desenvolvedora Front-End e apresentar meus projetos.
-🔗 [Acesse o projeto ao vivo](https://portifolio-talita-react.vercel.app/)
+# Portfólio Pessoal — Talita Moulin
+Portfólio profissional desenvolvido com React.js e TypeScript, criado para centralizar minha identidade como Desenvolvedora Front-End e apresentar meus projetos.<br>
+[Acesse o projeto ao vivo](https://portifolio-talita-react.vercel.app/)
 ## Sobre o projeto
 Aplicação construída com foco em performance, usabilidade e identidade visual própria. O portfólio reúne projetos, habilidades técnicas e informações de contato em uma interface responsiva e moderna.
 
