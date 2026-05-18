@@ -13,7 +13,7 @@ Aplicação construída com foco em performance, usabilidade e identidade visual
 - **React Router DOM v7** — roteamento client-side
 - **Lucide React** — biblioteca de ícones
 
-  ## Como rodar localmente
+## Como rodar localmente
 
 #### bash
 ## Clone o repositório
